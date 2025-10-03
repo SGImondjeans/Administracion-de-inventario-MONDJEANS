@@ -1,0 +1,25 @@
+TRIMESTRE 1: -presentación (NICOLAS)
+-diagrama proceso (BONCES)
+-recolección datos(GEORGE)
+-IEEE (JUSTIN)
+
+TRIMESTRE 2: -casos de uso (BONCES)
+-mockup (NICOLAS)
+-ficha técnica(GEORGE)
+
+TRIMESTRE 3: -normalización (BONCES)
+-diccionario(NICOLAS)
+-modelo relacional(GEORGE)
+-diagrama clases (JUSTIN)
+-diagrama de distribución(JUSTIN)
+-HTML (GEORGE)
+
+TRIMESTRE 4: -base de datos (NICOLAS)
+-consultas y sub(JUSTIN)
+-contraseña encriptada (BONCES)
+-front end (GEORGE)
+
+TRIMESTRE 5: -api (NICOLAS)
+-frontend(GEORGE(react) JUSTIN(api))
+-documentacion(BONCES)
+
