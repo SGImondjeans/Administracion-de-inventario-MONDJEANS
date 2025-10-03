@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generador de Reportes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1> Generador de Reportes</h1>
+
+    <form>
+      <!-- Tipo de Reporte -->
+      <label for="tipo-reporte">Tipo de Reporte:</label>
+      <select id="tipo-reporte" name="tipo-reporte" required>
+        <option value="">-- Selecciona --</option>
+        <option value="stock">Stock General</option>
+        <option value="entradas">Entradas de Inventario</option>
+        <option value="salidas">Salidas de Inventario</option>
+        <option value="proveedores">Listado de Proveedores</option>
+        <option value="compras">Historial de Compras</option>
+        <option value="devoluciones">Devoluciones</option>
+      </select>
+
+      <!-- Rango de Fechas -->
+      <label for="fecha-inicio">Fecha de Inicio:</label>
+      <input type="date" id="fecha-inicio" name="fecha-inicio" required>
+
+      <label for="fecha-fin">Fecha Final:</label>
+      <input type="date" id="fecha-fin" name="fecha-fin" required>
+
+      <!-- Formato -->
+      <label for="formato">Formato de Reporte:</label>
+      <select id="formato" name="formato" required>
+        <option value="">-- Selecciona Formato --</option>
+        <option value="pdf">PDF</option>
+        <option value="excel">Excel</option>
+        <option value="csv">CSV</option>
+      </select>
+
+      <!-- Botón de Generar -->
+      <button type="submit">Generar Reporte</button>
+    </form>
+
+    <div class="info">
+      <p> Los reportes estarán disponibles para descargar una vez generados.</p>
+      <p> El sistema seleccionará los datos según las fechas y el tipo elegido.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
